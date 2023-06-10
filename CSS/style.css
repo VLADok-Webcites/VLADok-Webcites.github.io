@@ -30,7 +30,7 @@ iframe{
     text-align: center;
 }
 footer{
-    background: linear-gradient(pink, darkgrey);
+    background: linear-gradient(pink, rgb(58, 57, 57));
 }
 cite{
     font-size: 30px;
