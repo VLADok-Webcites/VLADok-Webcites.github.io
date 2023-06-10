@@ -8,16 +8,32 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="menu">Главная <br></li>
+                <a href="/HTML/about.html" target="_self">
+                    <li class="menu">О себе <br></li>
+                </a>
+                <a href="/HTML/maozedong.html" target="_self">
+                    <li class="menu">Пропаганда Мао Цзедуна</li>
+                </a>
+                <a href="/HTML/reg.html">
+                    <li class="menu">Зарегистрироваться</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
     <table width=400>
         <tr>
             <td>
-                <form action="email.php3" method="post">
+                <form action="/PHP/reg.php">
                     Ваш никнейм:
                     <input type="text" name="name" size="20" maxlength="30"><br>
                     Ваш email:
                     <input type="text" name="email" size="20" maxlength="30"><br>
                     Ваш пароль: 
-                    <input type="password" name="password" size="20" maxlength="8"><br>
+                    <input type="password" name="password" size="20" maxlength="10"><br>
                     <input type="submit" value="Зарегистрироваться" size="20" height="10">
                     </p>
                 </form>

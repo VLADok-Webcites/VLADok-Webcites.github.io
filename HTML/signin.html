@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/CSS/style.css">
-    <title>О себе</title>
+    <title>Вход</title>
 </head>
 
 <body>
@@ -24,17 +24,28 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>
-            Страница ещё в разработке
-        </h1>
-        <h2>Подождите ещё чуть-чуть!</h2>
-    </main>
+    <table width=400>
+        <tr>
+            <td>
+                <form action="/PHP/reg.php">
+                    Ваш никнейм:
+                    <input type="text" name="name" size="20" maxlength="30"><br>
+                    Ваш email:
+                    <input type="text" name="email" size="20" maxlength="30"><br>
+                    Ваш пароль:
+                    <input type="password" name="password" size="20" maxlength="10"><br>
+                    <input type="submit" value="Зарегистрироваться" size="20" height="10">
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
     <footer>
         <hr>
         типа &copy; Влад Чертков 2015 - 2022 <br> <br>
         e-mail - chertkov_vlad@rambler.ru
-        <a href="https://www.youtube.com/channel/UC5nS3-mqd9yB3h0MpSYMf2w"><img src="/IMG/youtube.png" alt="youtube"></a> 
+        <a href="https://www.youtube.com/channel/UC5nS3-mqd9yB3h0MpSYMf2w"><img src="/IMG/youtube.png"
+                alt="youtube"></a>
         <a href="#"><img src="/IMG/instagram.png" alt="instagram"></a>
     </footer>
 </body>
