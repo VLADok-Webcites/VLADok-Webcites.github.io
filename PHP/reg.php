@@ -4,7 +4,7 @@ $username = "myusername";
 $password = "Abc13579";
 $dbName = "accdata";
 $userstable = "accdatas";
-MYSQL_CONNECT($hostname,$username,$password) OR DIE("Не могу создать соединение ");
+MYSQL_CONNECT($hostname,$username,$password) or die("Не могу создать соединение ");
 
 @mysql_select_db("$dbName") or die("Не могу выбрать базу данных ");
 
